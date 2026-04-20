@@ -5,10 +5,10 @@ gcc
 */
 
 #include <iostream>
-using namespace std;
-
 
 int main(){
-    cout<<"hello world";
-    return 0;
+int i=2;
+std::cout<<"hello world"<<std::endl;
+system("pause");
 }
+
