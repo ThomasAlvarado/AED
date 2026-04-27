@@ -5,9 +5,12 @@ gcc
 */
 
 #include <iostream>
+using std::cout;
 
 int main(){
-std::cout<<"hello world\n";
-system("pause");
+cout<<"hello world\n"
+    <<"Thomas Alvarado\n"
+    <<"Comision K1053\n"
+    <<"grupo 9"<<std::endl;
 }
 
